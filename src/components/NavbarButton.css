@@ -1,0 +1,27 @@
+
+.navbar-button-mobile{
+    background-color: var(--title-color);
+    padding: 1.3vw 6.4vw;
+    border-radius: 1.8vw;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-size: 7.6vw;
+    margin: 3.8vw 0;
+    color: black;
+}
+
+.navbar-button-mobile:first-child{
+    margin-top: 0;
+}
+
+/* landscape orientation */
+@media screen and (orientation: landscape){
+    .navbar-button-mobile{
+        background-color: var(--title-color);
+        padding: 0.6vw 3.6vw;
+        font-size: 4.2vw;
+        margin: 1.6vw 0;
+        border-radius: 0.9vw;
+    }
+}

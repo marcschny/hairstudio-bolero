@@ -1,0 +1,227 @@
+
+.opening-hours-container{
+    width: 100vw;
+    padding: 26px 0;
+    background-color: var(--primary-white);
+    position: absolute;
+    bottom: 0; left: 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.opening-hours-title{
+    padding: 4px 10px;
+    font-size: 42px;
+    color: var(--title-color);
+    /* background-color: tomato; */
+    text-overflow: clip;
+    vertical-align: middle;
+    margin-left: 4vw;
+    text-transform: uppercase;
+}
+
+.opening-hours-wrapper{
+    width: auto;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: row;
+    padding: 0 10px;
+    /* background-color: violet; */
+}
+
+.opening-hours-day-wrapper{
+    width: auto;
+    display: flex;
+    /* background-color: yellowgreen; */
+    padding: 12px 2vw;
+    border-right: 1px solid #e6e6e6;
+    margin: 4px;
+    align-items: center;
+    flex-direction: column;
+}
+
+.opening-hours-day-wrapper:last-child{
+    border-right: none;
+}
+
+
+.opening-hours-day{
+    font-size: 24px;
+    padding: 2px 0 8px 0;
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    color: var(--primary-black);
+}
+
+.opening-hours-hours{
+    font-size: 20px;
+    padding: 0 4px;
+    display: flex;
+    justify-content: center;
+    /* background-color: yellow; */
+    color: var(--secondary-black);
+}
+
+/* Mobile */
+
+.opening-hours-mobile-modal{
+    width: 100vw;
+    padding: 12px 0;
+    background-color: var(--primary-white);
+    position: absolute;
+    bottom: 0; left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    cursor: pointer;
+}
+
+.opening-hours-mobile-title{
+    font-size: 8vw;
+    color: var(--title-color);
+    text-transform: uppercase;
+    margin-left: 9vw;
+    /* IMPORT PEPERTUA Font, bc it's not loaded on mobile */
+}
+
+.modal-sheet-header{
+    width: 94vw;
+    padding: 3vw 3vw;
+    margin: 2vw 0;
+    background-color: var(--primary-white);
+    text-transform: uppercase;
+    font-size: 8vw;
+    color: var(--title-color);
+    text-align: center;
+
+}
+
+.modal-sheet-content-wrapper{
+    width: 86%;
+    padding: 20px 7%;
+    /* background-color: wheat; */
+    color: var(--primary-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.modal-sheet-content-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.modal-sheet-content-row{
+    font-size: 22px;
+    line-height: 22px;
+    color: var(--primary-black);
+}
+
+.day-cell{
+    /* background-color: saddlebrown; */
+    vertical-align: middle;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 12px 5px;
+}
+
+.ohours-cell{
+    /* background-color: salmon; */
+    font-style: italic;
+    white-space: nowrap;
+    vertical-align: middle;
+    border-bottom: 1px solid #dbdbdb;
+    padding: 12px 5px;
+    text-align: end;
+    /* column-span: ; */
+}
+
+.no-border{
+    border: 0;
+}
+
+.no-pad-top{
+    padding-top: 0;
+}
+.no-pad-bottom{
+    padding-bottom: 0;
+}
+
+.icon-ri-arrow-up{
+    margin-bottom: -3vw;
+    margin-left: 1vw;
+    width: 10vw;
+    height: 10vw;
+    color: #000;
+}
+
+.icon-ri-arrow-down{
+    position: absolute;
+    bottom: 20px;
+    width: 12vw;
+    height: 12vw;
+    color: #000;
+}
+
+
+/* smaller screens */
+@media screen and (max-width: 1200px) {
+
+    .opening-hours-container{
+        padding: 20px 0;
+    }
+
+    .opening-hours-title{
+        font-size: 3vw;
+        line-height: 3.1vw;
+    }   
+    
+    .opening-hours-day-wrapper{
+        padding: 8px 2vw;
+    }
+
+    .opening-hours-day{
+        font-size: 2.05vw;
+        padding: 2px 0 5px 0;
+    }
+
+    .opening-hours-hours{
+        font-size: 1.75vw;
+        padding: 0 4px;
+    }
+
+}
+
+
+/* tablets and smartphones */
+@media screen and (max-width: 768px){
+
+    .opening-hours-container{
+        display: none;
+    }
+
+    .opening-hours-mobile-modal{
+        display: flex;
+    }
+
+}
+/* landscape orientation */
+@media screen and (max-width: 768px) and (orientation: landscape){
+
+    .opening-hours-mobile-title{
+        font-size: 5vw;
+        margin-left: 7vw;
+    }
+
+    .icon-ri-arrow-up{
+        margin-bottom: -2vw;
+        margin-left: 0.7vw;
+        width: 6.8vw;
+        height: 6.8vw;
+        color: #000;
+    }
+
+}

@@ -1,0 +1,60 @@
+
+.footer-container{
+    width: 100vw;
+    padding: 18px 0;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fai-fb{
+    width: 28px;
+    height: 28px;
+    color: white;
+    margin: 0 1vw 0 2vw;
+    cursor: pointer;
+}
+
+.copyrights{
+    font-size: 18px;
+    margin: 0 2vw 0 1vw;
+}
+
+/* smaller screens */
+@media screen and (max-width: 1200px) {
+    .footer-container{
+        padding: 15px 0;
+    }
+    
+    .fai-fb{
+        width: 26px;
+        height: 26px;
+    }
+    
+    .copyrights{
+        font-size: 17px;
+        margin: 0 2vw 0 1vw;
+    }
+}
+
+/* tablets and smartphones */
+@media screen and (max-width: 768px){
+    .footer-container{
+        padding: 12px 0;
+    }
+    
+    .fai-fb{
+        width: 26px;
+        height: 26px;
+    }
+    
+    .copyrights{
+        font-size: 14.5px;
+        margin: 0 2vw 0 1vw;
+    }
+
+
+}

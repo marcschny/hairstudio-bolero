@@ -1,0 +1,143 @@
+.section-contact{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-contact-image-tile{
+    background-image: url('../../../public/images/showroom4.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 50vw;
+    display: flex;
+}
+
+.section-contact-tile{
+    background-color: var(--primary-black);
+    width: 50vw;
+    min-height: 40vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 0;
+}
+
+.section-contact-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: tomato; */
+}
+
+.contact-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* background-color:blue; */
+    padding: 20px 0 12px 0;
+}
+
+.profile-pic{
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
+    border-radius: 50%;
+    background-color: khaki;
+    background-image: url('../../../public/images/portrait.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.contact-info-column{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 30px;
+    color: var(--primary-white);
+}
+
+.contact-info-tel{
+    font-style: italic;
+}
+
+.location-wrapper{
+    /* background-color: blueviolet; */
+    padding: 60px 0 20px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    color: white;
+    font-size: 28px;
+}
+
+.location-map{
+    width: 30vw;
+    height: 16vw;
+    margin-top: 12px;
+}
+
+/* smaller screens */
+@media screen and (max-width: 1200px) {
+    
+    .profile-pic{
+        width: 100px;
+        height: 100px;
+        margin-right: 18px;
+    }
+
+    .contact-info-column{
+        font-size: 27px;
+    }
+
+    .location-wrapper{
+        padding: 54px 0 10px 0;
+        font-size: 26px;
+    }
+
+}
+
+/* tablets and smartphones */
+/* portrait orientation */
+@media screen and (max-width: 768px){
+
+    .section-contact{
+        flex-direction: column;
+    }
+
+    .section-contact-image-tile{
+        width: 100vw;
+        height: 180px;
+    }
+
+    .section-contact-tile{
+        width: 100vw;
+        padding: 34px 0;
+        min-height: 80vw;
+    }
+
+    
+    .profile-pic{
+        width: 80px;
+        height: 80px;
+        margin-right: 15px;
+    }
+
+    .contact-info-column{
+        font-size: 25px;
+    }
+
+    .location-wrapper{
+        padding: 48px 0 10px 0;
+        font-size: 23px;
+    }
+    
+    .location-map{
+        width: 74vw;
+        height: 40vw;
+        margin-top: 12px;
+    }
+}

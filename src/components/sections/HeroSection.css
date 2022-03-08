@@ -1,0 +1,84 @@
+
+.hero-container{
+    background-image: url('../../../public/images/cover_pc_cut.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    object-fit: contain;
+}
+
+.hero-container-overlay{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.42);
+}
+
+.hero-container-title{
+    position: absolute;
+    top: 60px; left: 5.8vw;
+    display: flex;
+    color: var(--primary-white);
+    font-size: 5.3vw;
+    line-height: 5.3vw;
+    text-transform: uppercase;
+    font-family: "Perpetua Titling MT", serif;
+    /* background-color: rosybrown; */
+}
+
+
+/* smaller screens */
+@media screen and (max-width: 1200px) {
+
+    .hero-container-title{
+        position: absolute;
+        top: 44px; left: 5.8vw;
+    }
+
+}
+
+/* tablets and smartphones */
+/* portrait orientation */
+@media screen and (max-width: 768px) and (orientation: portrait){
+
+    .hero-container{
+        background-image: url('../../../public/images/cover_mobile.jpg');
+    }
+
+    .hero-container-title{
+        position: absolute;
+        top: 0; left: 0;
+        width: 100vw;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        font-size: 13vw;
+        line-height: 13vw;
+    }
+
+}
+/* landscape orientation */
+@media screen and (max-width: 768px) and (orientation: landscape){
+
+    .hero-container{
+        background-image: url('../../../public/images/cover_mobile.jpg');
+    }
+
+    .hero-container-title{
+        top: -30px; left: 20px;
+        width: 50vw;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        font-size: 6.6vw;
+        line-height: 6.6vw;
+    }
+
+}

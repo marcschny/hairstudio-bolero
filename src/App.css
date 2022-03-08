@@ -1,38 +1,30 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'Perpetua';
+  src: url('../public/fonts/Perpetua.eot');
+  src: url('../public/fonts/Perpetua.woff') format('woff'),
+  url('../public/fonts/Perpetua.woff2') format('opentype'),
+  url('../public/fonts/Perpetua.svg') format('svg');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+:root{
+  --app-height: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Perpetua';
+  font-variant: normal;
+  font-style: normal;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+html{
+  --primary-black: #2d2d2d;
+  --secondary-black: #565656;
+  --primary-white: #fff;
+  --secondary-white: #e1e1e1;
+  --title-color: #D9AF6A;
+  overflow-y: scroll;
+  overflow-x: hidden;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
