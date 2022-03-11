@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/hairstudio-bolero/static/css/main.80fb3bca.css",
+    "main.js": "/hairstudio-bolero/static/js/main.67053d42.js",
+    "static/media/showroom1.jpg": "/hairstudio-bolero/static/media/showroom1.55fa5c4c6d267c417c34.jpg",
+    "static/media/portrait.jpg": "/hairstudio-bolero/static/media/portrait.235f1033b4f1cb753d32.jpg",
+    "static/media/cover_mobile.jpg": "/hairstudio-bolero/static/media/cover_mobile.aac268fd04234d8b4690.jpg",
+    "static/media/showroom4.jpg": "/hairstudio-bolero/static/media/showroom4.d1b46eeadc36fbdde69a.jpg",
+    "static/media/cover_pc_cut.jpg": "/hairstudio-bolero/static/media/cover_pc_cut.0058ec4ecce32469ea25.jpg",
+    "static/media/Perpetua.svg": "/hairstudio-bolero/static/media/Perpetua.a0bd088721533d9b9759.svg",
+    "static/media/Perpetua.eot": "/hairstudio-bolero/static/media/Perpetua.ccb48309da28c9b2a202.eot",
+    "static/media/Perpetua.woff": "/hairstudio-bolero/static/media/Perpetua.5657aaed2e108422b3c1.woff",
+    "static/media/Perpetua.woff2": "/hairstudio-bolero/static/media/Perpetua.8a0665b1a92e33922867.woff2",
+    "index.html": "/hairstudio-bolero/index.html",
+    "main.80fb3bca.css.map": "/hairstudio-bolero/static/css/main.80fb3bca.css.map",
+    "main.67053d42.js.map": "/hairstudio-bolero/static/js/main.67053d42.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.80fb3bca.css",
+    "static/js/main.67053d42.js"
+  ]
+}
