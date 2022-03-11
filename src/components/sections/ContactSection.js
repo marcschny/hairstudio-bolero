@@ -7,14 +7,11 @@ function ContactSection() {
           <div className='section-contact-tile'>
               <div className='section-title'>Kontakt</div>
               <div className='section-contact-wrapper'>
-                  <div className='contact-row'>
-                    <div className='profile-pic'></div>
-                    <div class='contact-info-column'>
-                      <span class='contact-info-name'>Schnydrig Sabrina</span>
-                      <span className='contact-info-tel'>027 946 53 73</span>
-                    </div>
+                  <div className='contact-info-column'>
+                    <span className='contact-info-name'>Schnydrig Sabrina</span>
+                    <span className='contact-info-tel'>027 946 53 73</span>
                   </div>
-                  <div class='location-wrapper'>
+                  <div className='location-wrapper'>
                     <span className='location-adress'>Balfrinstrasse 10, 3930 Visp</span>
                     <div className='location-map'>
                       <iframe 
@@ -23,7 +20,7 @@ function ContactSection() {
                         width="100%" 
                         height="100%" 
                         style={{ border: '0'}}
-                        allowfullscreen=""
+                        allowFullScreen=""
                         loading="lazy">
                       </iframe>
                     </div>

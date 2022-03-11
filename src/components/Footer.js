@@ -2,13 +2,13 @@ import React from 'react';
 import './Footer.css';
 
 //RI
-import FacebookBoxFillIcon from 'remixicon-react/FacebookBoxFillIcon';
+import InstagramLineIcon from 'remixicon-react/InstagramLineIcon';
 
 function Footer() {
   return (
     <footer className='footer-container'> 
-        <a href="#" target='_blank'><FacebookBoxFillIcon className='fai-fb' /></a>
-        <span className='copyrights'>&copy; Hair-Studio Bolero, 3930 Visp, All Rights Reserved</span>
+        <a href="https://www.instagram.com/hair_studio_bolero/" target='_blank'><InstagramLineIcon className='fai-insta' /></a>
+        <span className='copyrights'>Hair-Studio Bolero, 3930 Visp</span>
     </footer>
   );
 }

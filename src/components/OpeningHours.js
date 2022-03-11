@@ -2,10 +2,6 @@ import React from 'react';
 import Sheet from 'react-modal-sheet';
 import './OpeningHours.css';
 
-//FA
-import { faAngleUp } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-//TODO: uninstall unnecessary modules
 //RI
 import ArrowUpSLineIcon from 'remixicon-react/ArrowUpSLineIcon';
 import ArrowDownSLineIcon from 'remixicon-react/ArrowDownSLineIcon';

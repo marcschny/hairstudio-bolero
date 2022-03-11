@@ -10,12 +10,11 @@ const enumCat = {
 
 function PricesSection() {
 
+    /* handle selected category */
     const [category, setCategory] = useState('women');
     const handleCategory = (cat) =>{
         setCategory(cat);
     }
-
-    console.log(category);
 
     return (
       <>
@@ -45,7 +44,7 @@ function PricesSection() {
   );
 }
 
-
+/* cat and prices for men */
 function PricesMen(){
     return (
         <>
@@ -73,6 +72,7 @@ function PricesMen(){
     );
 }
 
+/* cat and prices for women */
 function PricesWomen(){
     return (
         <>
@@ -117,13 +117,15 @@ function PricesWomen(){
             <span className='price'>ab 35.-</span>
         </div>
         <div className='price-row'>
-            <span className='description'>Augenbrauen zupfen oder färben</span>
+            <span className='description'>Augenbrauen zupfen und färben</span>
             <span className='price'>25.-</span>
         </div>
         </>
     );
 }
 
+
+/* cat and prices for children */
 function PricesChildren(){
     return (
         <>
@@ -162,7 +164,6 @@ function PricesChildren(){
         </>
     );
 }
-
 
 
 export default PricesSection;
