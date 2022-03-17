@@ -1,8 +1,8 @@
 {
-  "name": "marcschny.github.io",
+  "name": "hairstudio-bolero",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://marcschny.github.io",
+  "homepage": "http://bolero-visp.ch",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
     "@fortawesome/free-solid-svg-icons": "^5.15.4",
