@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9302292e.css",
-    "main.js": "/static/js/main.67053d42.js",
+    "main.css": "/static/css/main.027a0144.css",
+    "main.js": "/static/js/main.3cc16561.js",
     "static/media/showroom1.jpg": "/static/media/showroom1.55fa5c4c6d267c417c34.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.235f1033b4f1cb753d32.jpg",
-    "static/media/cover_mobile.jpg": "/static/media/cover_mobile.aac268fd04234d8b4690.jpg",
     "static/media/showroom4.jpg": "/static/media/showroom4.d1b46eeadc36fbdde69a.jpg",
     "static/media/cover_pc_cut.jpg": "/static/media/cover_pc_cut.0058ec4ecce32469ea25.jpg",
+    "static/media/cover_mobile.jpg": "/static/media/cover_mobile.3c16b815ca3bd91d6592.jpg",
     "static/media/Perpetua.svg": "/static/media/Perpetua.a0bd088721533d9b9759.svg",
     "static/media/Perpetua.eot": "/static/media/Perpetua.ccb48309da28c9b2a202.eot",
     "static/media/Perpetua.woff": "/static/media/Perpetua.5657aaed2e108422b3c1.woff",
     "static/media/Perpetua.woff2": "/static/media/Perpetua.8a0665b1a92e33922867.woff2",
     "index.html": "/index.html",
-    "main.9302292e.css.map": "/static/css/main.9302292e.css.map",
-    "main.67053d42.js.map": "/static/js/main.67053d42.js.map"
+    "main.027a0144.css.map": "/static/css/main.027a0144.css.map",
+    "main.3cc16561.js.map": "/static/js/main.3cc16561.js.map"
   },
   "entrypoints": [
-    "static/css/main.9302292e.css",
-    "static/js/main.67053d42.js"
+    "static/css/main.027a0144.css",
+    "static/js/main.3cc16561.js"
   ]
 }
