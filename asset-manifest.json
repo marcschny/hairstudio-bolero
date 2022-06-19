@@ -1,22 +1,17 @@
 {
-  "files": {
-    "main.css": "/static/css/main.027a0144.css",
-    "main.js": "/static/js/main.3cc16561.js",
-    "static/media/showroom1.jpg": "/static/media/showroom1.55fa5c4c6d267c417c34.jpg",
-    "static/media/portrait.jpg": "/static/media/portrait.235f1033b4f1cb753d32.jpg",
-    "static/media/showroom4.jpg": "/static/media/showroom4.d1b46eeadc36fbdde69a.jpg",
-    "static/media/cover_pc_cut.jpg": "/static/media/cover_pc_cut.0058ec4ecce32469ea25.jpg",
-    "static/media/cover_mobile.jpg": "/static/media/cover_mobile.3c16b815ca3bd91d6592.jpg",
-    "static/media/Perpetua.svg": "/static/media/Perpetua.a0bd088721533d9b9759.svg",
-    "static/media/Perpetua.eot": "/static/media/Perpetua.ccb48309da28c9b2a202.eot",
-    "static/media/Perpetua.woff": "/static/media/Perpetua.5657aaed2e108422b3c1.woff",
-    "static/media/Perpetua.woff2": "/static/media/Perpetua.8a0665b1a92e33922867.woff2",
-    "index.html": "/index.html",
-    "main.027a0144.css.map": "/static/css/main.027a0144.css.map",
-    "main.3cc16561.js.map": "/static/js/main.3cc16561.js.map"
-  },
-  "entrypoints": [
-    "static/css/main.027a0144.css",
-    "static/js/main.3cc16561.js"
-  ]
+  "main.css": "/static/css/main.0e6b571d.chunk.css",
+  "main.js": "/static/js/main.efd87859.chunk.js",
+  "main.js.map": "/static/js/main.efd87859.chunk.js.map",
+  "static/js/1.320b6f8b.chunk.js": "/static/js/1.320b6f8b.chunk.js",
+  "static/js/1.320b6f8b.chunk.js.map": "/static/js/1.320b6f8b.chunk.js.map",
+  "runtime~main.js": "/static/js/runtime~main.229c360f.js",
+  "runtime~main.js.map": "/static/js/runtime~main.229c360f.js.map",
+  "static/media/App.css": "/static/media/Perpetua.93133519.woff2",
+  "static/media/ContactSection.css": "/static/media/portrait.45d79079.jpg",
+  "static/media/HeroSection.css": "/static/media/cover_mobile_compressed.4fe29187.jpg",
+  "static/media/PricesSection.css": "/static/media/showroom1.1333435a.jpg",
+  "static/css/main.0e6b571d.chunk.css.map": "/static/css/main.0e6b571d.chunk.css.map",
+  "index.html": "/index.html",
+  "precache-manifest.32c1d28349009c1268af778fb77dd561.js": "/precache-manifest.32c1d28349009c1268af778fb77dd561.js",
+  "service-worker.js": "/service-worker.js"
 }
