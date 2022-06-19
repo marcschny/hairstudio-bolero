@@ -7,7 +7,7 @@
 }
 
 .section-prices-image-tile{
-    background-image: url('../../../public/images/showroom1.jpg');
+    background-image: url('../../../src/assets/images/showroom1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;

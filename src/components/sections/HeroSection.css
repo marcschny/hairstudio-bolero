@@ -1,6 +1,6 @@
 
 .hero-container{
-    background-image: url('../../../public/images/cover_pc_cut.jpg');
+    background-image: url('../../../src/assets/images/cover_pc_cut_compressed.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,7 +46,7 @@
 @media screen and (max-width: 768px) and (orientation: portrait){
 
     .hero-container{
-        background-image: url('../../../public/images/cover_mobile.jpg');
+        background-image: url('../../../src/assets/images/cover_mobile_compressed.jpg');
     }
 
     .hero-container-title{
@@ -67,7 +67,7 @@
 @media screen and (max-width: 768px) and (orientation: landscape){
 
     .hero-container{
-        background-image: url('../../../public/images/cover_mobile.jpg');
+        background-image: url('../../../src/assets/images/cover_mobile_compressed.jpg');
     }
 
     .hero-container-title{

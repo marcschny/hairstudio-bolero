@@ -85,7 +85,6 @@
     color: var(--title-color);
     text-transform: uppercase;
     margin-left: 9vw;
-    /* IMPORT PEPERTUA Font, bc it's not loaded on mobile */
 }
 
 .modal-sheet-header{

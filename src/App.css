@@ -1,9 +1,9 @@
 @font-face {
   font-family: 'Perpetua';
-  src: url('../public/fonts/Perpetua.eot');
-  src: url('../public/fonts/Perpetua.woff') format('woff'),
-  url('../public/fonts/Perpetua.woff2') format('opentype'),
-  url('../public/fonts/Perpetua.svg') format('svg');
+  src: url('../src/assets/fonts/Perpetua.eot');
+  src: url('../src/assets/fonts/Perpetua.woff') format('woff'),
+  url('../src/assets/fonts/Perpetua.woff2') format('opentype'),
+  url('../src/assets/fonts/Perpetua.svg') format('svg');
 }
 
 :root{

@@ -18,7 +18,7 @@ function OpeningHours() {
           </span>
           <div className='opening-hours-wrapper'>
                 <div className='opening-hours-day-wrapper'>
-                    <span className='opening-hours-day'>Montag</span>
+                    <span className='opening-hours-day'>Dienstag</span>
                     <span className='opening-hours-hours'>09:00 - 17:00</span>
                 </div>
                 <div className='opening-hours-day-wrapper'>
