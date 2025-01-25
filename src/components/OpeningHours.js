@@ -64,8 +64,11 @@ function OpeningHours() {
               <div className='modal-sheet-content-wrapper'>
                 <table className='modal-sheet-content-table'>
                     <tr className='modal-sheet-content-row'>
-                        <td className='day-cell'>Dienstag</td>
-                        <td className='ohours-cell'>09:00 - 17:00</td>
+                        <td className='day-cell' rowSpan='2'>Dienstag</td>
+                        <td className='ohours-cell no-border no-pad-bottom'>09:00 - 12:00</td>
+                    </tr>
+                    <tr className='modal-sheet-content-row'>
+                        <td className='ohours-cell no-pad-top'>13:00 - 17:00</td>
                     </tr>
                     <tr className='modal-sheet-content-row'>
                         <td className='day-cell' rowSpan='2'>Mittwoch</td>
@@ -76,14 +79,14 @@ function OpeningHours() {
                     </tr>
                     <tr className='modal-sheet-content-row'>
                         <td className='day-cell'>Donnerstag</td>
-                        <td className='ohours-cell'>08:00 - 18:00</td>
+                        <td className='ohours-cell'>09:00 - 18:00</td>
                     </tr>
                     <tr className='modal-sheet-content-row'>
                         <td className='day-cell' rowSpan='2'>Freitag</td>
                         <td className='ohours-cell no-border no-pad-bottom'>08:00 - 12:00</td>
                     </tr>
                     <tr className='modal-sheet-content-row'>
-                        <td className='ohours-cell no-pad-top'>13:30 - 18:00</td>
+                        <td className='ohours-cell no-pad-top'>13:00 - 18:00</td>
                     </tr>
                     <tr className='modal-sheet-content-row'>
                         <td className='day-cell no-border'>Samstag</td>
