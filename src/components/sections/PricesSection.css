@@ -193,14 +193,22 @@
     }
 
     .price-row{
-        font-size: 4.3vw;
-        line-height: 4vw;
+        font-size: 4.5vw;
+        line-height: 4.2vw;
     }
     
     .description{
         padding: 7.5px 5px;
     }
+
+    .info-row{
+        font-size: 4.4vw;
+        line-height: 4.2vw;
+    }
     
+    .info{
+        padding: 7.5px 5px;
+    }
     
     .price{
         padding: 7.5px 5px;
@@ -231,11 +239,20 @@
     }
 
     .price-row{
-        font-size: 2.4vw;
-        line-height: 2.4vw;
+        font-size: 2.5vw;
+        line-height: 2.5vw;
     }
     
     .description{
+        padding: 7.5px 5px;
+    }
+
+    .info-row{
+        font-size: 2.5vw;
+        line-height: 2.5vw;
+    }
+    
+    .info{
         padding: 7.5px 5px;
     }
     
