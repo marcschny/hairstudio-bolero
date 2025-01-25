@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0abf050.css",
+    "main.css": "/static/css/main.a3c0b91c.css",
     "main.js": "/static/js/main.2892ab12.js",
     "static/media/showroom1.jpg": "/static/media/showroom1.55fa5c4c6d267c417c34.jpg",
     "static/media/portrait.jpg": "/static/media/portrait.235f1033b4f1cb753d32.jpg",
@@ -12,11 +12,11 @@
     "static/media/Perpetua.woff": "/static/media/Perpetua.5657aaed2e108422b3c1.woff",
     "static/media/Perpetua.woff2": "/static/media/Perpetua.8a0665b1a92e33922867.woff2",
     "index.html": "/index.html",
-    "main.d0abf050.css.map": "/static/css/main.d0abf050.css.map",
+    "main.a3c0b91c.css.map": "/static/css/main.a3c0b91c.css.map",
     "main.2892ab12.js.map": "/static/js/main.2892ab12.js.map"
   },
   "entrypoints": [
-    "static/css/main.d0abf050.css",
+    "static/css/main.a3c0b91c.css",
     "static/js/main.2892ab12.js"
   ]
 }
