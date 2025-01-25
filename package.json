@@ -1,8 +1,8 @@
 {
   "name": "hairstudio-bolero",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "private": true,
-  "homepage": "http://bolero-visp.ch",
+  "homepage": "https://www.bolero-visp.ch",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^6.5.2",
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
