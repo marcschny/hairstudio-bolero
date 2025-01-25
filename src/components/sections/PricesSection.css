@@ -92,12 +92,26 @@
     line-height: 22px;
 }
 
+.info-row{
+    display: table-row;
+    font-size: 21px;
+    line-height: 21px;
+}
+
 .description{
     display: table-cell;
     /* background-color: saddlebrown; */
     vertical-align: middle;
     border-bottom: 1px solid #3B3B3B;
     padding: 8px 5px;
+}
+
+.info{
+    display: table-cell;
+    /* background-color: saddlebrown; */
+    vertical-align: middle;
+    padding: 28px 5px 8px 5px;
+    font-style: italic;
 }
 
 
